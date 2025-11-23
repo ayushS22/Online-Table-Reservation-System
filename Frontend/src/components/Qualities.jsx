@@ -11,7 +11,7 @@ const Qualities = () => {
                   <div className='card' key={element.id}>
                       <img src={element.image} alt={element.title} />
                       <p className='title'>{element.title}</p>
-                      <p className='description'>{element.description}</p>
+                      {/* <p className='description'>{element.description}</p> */}
                   </div>
                 )
               })
@@ -21,5 +21,6 @@ const Qualities = () => {
     </>
   )
 }
+
 
 export default Qualities
