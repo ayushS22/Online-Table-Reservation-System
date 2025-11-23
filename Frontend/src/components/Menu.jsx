@@ -7,7 +7,11 @@ const Menu = () => {
         <div className="container">
             <div className="heading_section">
                 <h1 className="heading">POPULAR DISHES</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, iusto dolorem! Voluptatibus ipsum nam mollitia architecto. Soluta pariatur eius et recusandae veritatis. Quasi, et molestias!</p>
+                <p>Our popular dishes include Roasted Lamb Rump, a tender and
+              flavorful cut seasoned to perfection; Citrus Cured Salmon, infused
+              with refreshing citrus notes; Pan-Seared Sea Bass with a crisp,
+              golden finish; and our signature Stuffed Strawberry, filled with
+              rich cream for a sweet and indulgent dessert experience</p>
             </div>
             <div className="dishes_container">
                 {
@@ -25,5 +29,6 @@ const Menu = () => {
     </>
   )
 }
+
 
 export default Menu
