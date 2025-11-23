@@ -13,13 +13,13 @@ const About = () => {
               <p>The only thing we're serious about food.</p>
             </div>
             <p className="mid">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Provident possimus optio adipisci dolores impedit illum iusto
-              perferendis, laudantium quod accusamus consequuntur consectetur,
-              tempore nulla error iure reiciendis dolorem assumenda.
-              Necessitatibus fugit asperiores totam rem esse exercitationem
-              iusto ipsum qui dolore ex, accusantium repellat mollitia
-              repellendus.
+             Welcome to Online Table Reservation System, where great food meets a warm dining
+              experience. We are committed to serving delicious, freshly
+              prepared meals using high-quality ingredients. Whether you're
+              dining in or reserving a table online, we ensure a seamless
+              experience with attentive service and a comfortable ambiance. Your
+              satisfaction is our priority, and every plate reflects our passion
+              for food and hospitality.
             </p>
             <Link to={"/"}>
               Explore Menu{" "}
@@ -36,5 +36,6 @@ const About = () => {
     </>
   );
 };
+
 
 export default About;
